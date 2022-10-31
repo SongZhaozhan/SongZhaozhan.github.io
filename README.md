@@ -2,13 +2,10 @@
 
 ⏳ Year progress { ████████████████████████▁▁▁▁▁▁ } 83.11 %
 
-<<<<<<< HEAD
-⏰ Updated on Mon, 31 Oct 2022 07:11:01 GMT
-=======
----
 
+⏰ Updated on Mon, 31 Oct 2022 07:11:01 GMT
 ⏰ Updated on Mon, 31 Oct 2022 08:35:05 GMT
->>>>>>> 1fdd6c514b13749d15231b0aa3bbf8c7a8f6d905
+
 
 ---
 
