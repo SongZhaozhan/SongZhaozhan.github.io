@@ -14,7 +14,7 @@ function generateProgressBar() {
 }
 
 const readme = `\
-## Zhaozhan Song (宋赵展)    
+## Zhaozhan Song   
 
 ⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 
