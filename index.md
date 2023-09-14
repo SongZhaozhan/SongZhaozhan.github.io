@@ -1,7 +1,6 @@
-const indexmd = `\
 
 # Zhaozhan Song   
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on Thu, 16 Mar 2023 07:08:02 GMT
 
 I'm Zhaozhan Song, an assistant project manager. 
 
@@ -55,7 +54,4 @@ I'm Zhaozhan Song, an assistant project manager.
 
 <br/>
 
-\
-`
 
-console.log(indexmd)
