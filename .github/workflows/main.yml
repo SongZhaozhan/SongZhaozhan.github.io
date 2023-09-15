@@ -6,39 +6,6 @@ on:
   ## push后触发
   push:
     branches: 
-      - 'develop'
-    paths:   # 指定文件更改，触发
-      - '**.js'
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '14.x'
-    - name: Update index.md
-      run: node index.js > index.md
-    - name: Commit change & Push
-      run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -am "bot: update index.md automatically"
-          git push
-=======
-=======
->>>>>>> 6387f2a3b4aaa5c5a6ab5ba6d7ffaba88aa5bb65
-name: Progress Bar CI
-
-on:
-  ## 手动触发
-  workflow_dispatch:
-  ## push后触发
-  push:
-    branches: 
       - 'master'
     paths:   # 指定文件更改，触发
       - '**.js'
